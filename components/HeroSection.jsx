@@ -101,7 +101,7 @@ const HeroSection = () => {
                 <p className="text-xl md:text-2xl text-gray-200 mb-8 font-light">
                   {slide.subtitle}
                 </p>
-                <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold px-8 py-4 rounded transition-all transform hover:scale-105 shadow-lg">
+                <button className="bg-secondary hover:bg-yellow-500 text-gray-900 font-semibold px-8 py-4 rounded transition-all transform hover:scale-105 shadow-lg">
                   {slide.cta}
                 </button>
               </div>
@@ -134,7 +134,7 @@ const HeroSection = () => {
               onClick={() => goToSlide(index)}
               className={`transition-all ${
                 index === currentSlide
-                  ? "w-12 h-3 bg-yellow-400"
+                  ? "w-12 h-3 bg-secondary"
                   : "w-3 h-3 bg-white/50 hover:bg-white/70"
               } rounded-full`}
               aria-label={`Go to slide ${index + 1}`}

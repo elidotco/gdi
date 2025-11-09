@@ -1,30 +1,26 @@
+import Image from "next/image";
 import React from "react";
 
 const Header = () => {
   return (
-    <header className="absolute top-0 left-0 right-0 z-50 bg-gray-900 shadow-md">
-      <nav className="max-w-7xl mx-auto px-6 py-4">
+    <header className="absolute top-0 left-0 right-0 z-50 bg-primary shadow-md">
+      <nav className="max-w-7xl mx-auto px-6 py-4 ">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-yellow-400 rounded flex items-center justify-center font-bold text-xl">
-              GM
-            </div>
-            <div>
-              <div className="font-bold text-xl text-gray-900">GDMI MACS</div>
-              <div className="text-xs text-gray-600">
-                Your partner in West Africa
-              </div>
-            </div>
+          <div className="">
+            <Image
+              src="/6.png"
+              alt="logo"
+              width={250}
+              height={350}
+              className=" object-contain "
+            />
           </div>
 
           {/* Navigation Links */}
           <ul className="hidden md:flex items-center space-x-8 text-sm font-medium">
             <li>
-              <a
-                href="#home"
-                className="text-gray-900 hover:text-yellow-600 transition"
-              >
+              <a href="#home" className=" hover:text-yellow-600 transition">
                 Home
               </a>
             </li>

@@ -1,10 +1,11 @@
-import { AboutSection, HeroSection, ServicesSection } from "@/components";
-import Image from "next/image";
+import { AboutSection, ServicesSection } from "@/components";
+import HeroSection from "@/components/UI/HeroSection";
 
 export default function Home() {
   return (
     <main>
       <HeroSection />
+
       <ServicesSection />
     </main>
   );
