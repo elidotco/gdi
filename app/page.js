@@ -1,12 +1,14 @@
-import { AboutSection, ServicesSection } from "@/components";
+import Featured from "@/components/UI/Featured";
 import HeroSection from "@/components/UI/HeroSection";
+import OffersSection from "@/components/UI/OffersSection";
 
 export default function Home() {
   return (
     <main>
       <HeroSection />
 
-      <ServicesSection />
+      <Featured />
+      <OffersSection />
     </main>
   );
 }

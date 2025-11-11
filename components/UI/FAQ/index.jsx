@@ -12,7 +12,7 @@ import {
 import Image from "next/image";
 import ic_chevron_down from "/svgs/ic_chevron_down.svg";
 import { MaskText } from "@/components";
-import { useIsMobile } from "../../../../libs/useIsMobile";
+import { useIsMobile } from "@/libs/useIsMobile";
 import {
   animate,
   desktopHeaderPhrase,

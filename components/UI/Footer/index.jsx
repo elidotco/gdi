@@ -16,7 +16,7 @@ const linksArr = [
     links: ["Terms of use", "Privacy policy", "About us"],
   },
   {
-    title: "About us",
+    title: "Get in touch",
     links: ["Contact us", "FAQ"],
   },
 ];
@@ -27,10 +27,6 @@ import {
   FooterLogo,
   FooterMainContent,
   FooterMiddle,
-  QRContainer,
-  QRImageCtn,
-  TextCtn,
-  IconCtn,
   FooterNavigation,
   GridColumn,
   LinksContainer,
@@ -48,18 +44,6 @@ const Footer = () => {
         </FooterLogo>
         <FooterMainContent>
           <FooterMiddle>
-            <QRContainer>
-              <QRImageCtn>
-                <Image src={qr_code} alt="qr_code" />
-              </QRImageCtn>
-              <TextCtn>
-                <p>Scan to download App on the Playstore and Appstore.</p>
-                <IconCtn>
-                  <Image src={ic_google_playstore} alt="playstore icon" />
-                  <Image src={ic_baseline_apple} alt="apple icon" />
-                </IconCtn>
-              </TextCtn>
-            </QRContainer>
             <FooterNavigation>
               {linksArr.map((l, i) => (
                 <GridColumn key={i}>
@@ -75,12 +59,11 @@ const Footer = () => {
           </FooterMiddle>
           <FooterBottom>
             <Translator>
-              <h3>English (United Kingdom)</h3>
-              <Image src={ic_chevron_down} alt="chevron down" />
+              <h3>English </h3>
             </Translator>
             <CopyRight>
               <Image src={ic_copyright} alt="copyright svg" />
-              Raft Corp, LLC.
+              DGI 2024. All rights reserved.
             </CopyRight>
           </FooterBottom>
         </FooterMainContent>

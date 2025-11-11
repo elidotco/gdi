@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import ic_import from "../../../public/svgs/ic_import.svg";
+import ic_import from "@/public/svgs/ic_import.svg";
 
 import { Wrapper, Inner, SecondOverlay } from "./styles";
 import { Dispatch, SetStateAction, useEffect, useRef } from "react";
