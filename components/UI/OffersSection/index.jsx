@@ -21,51 +21,53 @@ import {
 const OffersSection = () => {
   const isMobile = useIsMobile();
   return (
-    <Wrapper>
-      <Inner>
-        <Header>
-          <MaskText phrases={desktopHeaderPhrases} tag="h1" />
+    <section id="services">
+      <Wrapper>
+        <Inner>
+          <Header>
+            <MaskText phrases={desktopHeaderPhrases} tag="h1" />
 
-          {isMobile ? (
-            <MaskText phrases={mobileParagraphPhrase} tag="p" />
-          ) : (
-            <MaskText phrases={desktopParagraphPhrase} tag="p" />
-          )}
-        </Header>
-        <Offers>
-          {offers.slice(0, 2).map((offer, i) => (
-            <OfferCard key={i}>
-              <ImageCtn>
-                <Image
-                  src={!offer.illustration ? null : offer.illustration}
-                  alt="illustration"
-                />
-              </ImageCtn>
-              <TextCtn>
-                <MaskText phrases={new Array(offer.title)} tag="h2" />
-                <p>{offer.details}</p>
-              </TextCtn>
-            </OfferCard>
-          ))}
-        </Offers>
-        <Offers>
-          {offers.slice(2, 4).map((offer, i) => (
-            <OfferCard key={i}>
-              <ImageCtn>
-                <Image
-                  src={!offer.illustration ? null : offer.illustration}
-                  alt="illustration"
-                />
-              </ImageCtn>
-              <TextCtn>
-                <MaskText phrases={new Array(offer.title)} tag="h2" />
-                <p>{offer.details}</p>
-              </TextCtn>
-            </OfferCard>
-          ))}
-        </Offers>
-      </Inner>
-    </Wrapper>
+            {isMobile ? (
+              <MaskText phrases={mobileParagraphPhrase} tag="p" />
+            ) : (
+              <MaskText phrases={desktopParagraphPhrase} tag="p" />
+            )}
+          </Header>
+          <Offers>
+            {offers.slice(0, 2).map((offer, i) => (
+              <OfferCard key={i}>
+                <ImageCtn>
+                  <Image
+                    src={!offer.illustration ? null : offer.illustration}
+                    alt="illustration"
+                  />
+                </ImageCtn>
+                <TextCtn>
+                  <MaskText phrases={new Array(offer.title)} tag="h2" />
+                  <p>{offer.details}</p>
+                </TextCtn>
+              </OfferCard>
+            ))}
+          </Offers>
+          <Offers>
+            {offers.slice(2, 4).map((offer, i) => (
+              <OfferCard key={i}>
+                <ImageCtn>
+                  <Image
+                    src={!offer.illustration ? null : offer.illustration}
+                    alt="illustration"
+                  />
+                </ImageCtn>
+                <TextCtn>
+                  <MaskText phrases={new Array(offer.title)} tag="h2" />
+                  <p>{offer.details}</p>
+                </TextCtn>
+              </OfferCard>
+            ))}
+          </Offers>
+        </Inner>
+      </Wrapper>
+    </section>
   );
 };
 

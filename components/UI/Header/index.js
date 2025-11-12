@@ -37,7 +37,7 @@ const Header = () => {
         </LogoContainer>
         <Nav className={isOpen ? "active" : ""}>
           {links.map((link, i) => (
-            <AnimatedLink key={i} title={link.linkTo} />
+            <AnimatedLink key={i} title={link.linkTo} tag="a" href={link.url} />
           ))}
         </Nav>
         <CallToActions className={isOpen ? "active" : ""}>

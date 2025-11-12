@@ -120,12 +120,12 @@ export const SVGCtn = styled.div`
 `;
 
 export const Stats = styled.div`
-  margin: 6.25rem auto;
+  margin: 3.25rem auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  border-top: 1px solid var(--stroke, rgba(255, 255, 255, 0.04));
   @media (max-width: 768px) {
     margin: 3.75rem auto;
   }

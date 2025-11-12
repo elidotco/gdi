@@ -14,23 +14,28 @@ export const animate = {
 
 export const faqData = [
   {
-    question: "How do I create an account with RAFT?",
+    question: "What services does GDI MACS provide?",
     answer:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "GDI MACS offers comprehensive hydrological engineering, agricultural support services, construction services, general logistics, and plant & equipment management across 25+ countries in West Africa.",
   },
   {
-    question: "How does RAFT ensure the security of my financial data?",
+    question: "In which countries does GDI MACS operate?",
     answer:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "We operate across West Africa including Ghana, Liberia, Sierra Leone, Côte d'Ivoire, Guinea, Togo, Mali, Burkina Faso, Benin, and Senegal, with headquarters in Accra, Ghana.",
   },
   {
-    question: "What types of transactions can I perform with RAFT?",
+    question: "What is GDI MACS's approach to sustainability?",
     answer:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "At the heart of GDI MACS is a strategy to deliver sustainable solutions beyond shareholder return, including global objectives around environmental responsibility, social mobility, and community impact in all our operations.",
   },
   {
-    question: "What benefits does RAFT offer for wealth management?",
+    question: "How can I request equipment or services from GDI MACS?",
     answer:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "You can contact us directly at our Ghana offices (+233 243 334 444 or +233 244 334 000) or Liberia office (+231 777 3333). Our team is available to discuss your project requirements and provide customized solutions.",
+  },
+  {
+    question: "What makes GDI MACS different from other service providers?",
+    answer:
+      "With 150 years of combined experience, operations in 25+ countries, and a commitment to diversity and sustainability, GDI MACS offers a rare combination of international expertise with local knowledge across West Africa.",
   },
 ];

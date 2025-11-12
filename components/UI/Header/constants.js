@@ -22,11 +22,11 @@ export const menu = {
 };
 export const links = [
   {
-    url: "/",
+    url: "/about",
     linkTo: "About Us",
   },
   {
-    url: "/",
+    url: "/#services",
     linkTo: " Services",
   },
   {

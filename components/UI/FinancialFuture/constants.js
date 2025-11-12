@@ -1,57 +1,58 @@
 import ic_money_send from "@/public/svgs/ic_money_send.svg";
 import ic_wallet_minus from "@/public/svgs/ic_wallet_minus.svg";
+
 export const cardsInfo = [
   {
-    title: "Spend Better",
+    title: "Build Better",
     details:
-      "Set and achieve financial goals with ease, automate your savings, and watch your money grow without the stress.",
+      "Achieve infrastructure goals with proven methodologies, comprehensive project management, and environmental responsibility across every project.",
     icon: ic_money_send,
   },
   {
-    title: "Invest Better",
+    title: "Operate Better",
     details:
-      "Set and achieve financial goals with ease, automate your savings, and watch your money grow without the stress.",
+      "Maximize operational efficiency with our computer-aided management systems and unrivalled maintenance programmes ensuring minimal downtime.",
     icon: ic_wallet_minus,
   },
 ];
 
 export const stats = [
   {
-    number: "50+",
-    subtitle: "cities",
+    number: "25+",
+    subtitle: "countries",
   },
   {
-    number: "50,000+",
-    subtitle: "transactions",
+    number: "150",
+    subtitle: "years experience",
   },
   {
-    number: "3M+",
-    subtitle: "users",
+    number: "1000+",
+    subtitle: "projects completed",
   },
   {
-    number: "5+",
-    subtitle: "user ratings",
+    number: "100%",
+    subtitle: "client satisfaction",
   },
 ];
 
 // For desktop
 export const desktopHeaderPhrase = [
-  "Confidently Shape Your",
-  "Financial Future",
+  "Confidently Shape  Africa's",
+  "Infrastructure Future",
 ];
 export const desktopParagraphPhrase = [
-  "At RAFT, we empower you to confidently shape your financial future. Our modern",
-  "approach simplifies saving and investing, making it easier than ever.",
+  "At GDI MACS, we empower communities to confidently build their infrastructure future. Our",
+  "sustainable approach to engineering and logistics makes development easier than ever.",
 ];
 
 // For mobile
 export const mobileHeaderPhrase = [
   "Confidently Shape",
-  " Your Financial Future",
+  " West Africa's Infrastructure Future",
 ];
 export const mobileParagraphPhrase = [
-  "At RAFT, we empower you to confidently shape",
-  "your financial future. Our modern approach",
-  "simplifies saving and investing, making it easier",
-  "than ever.",
+  "At GDI MACS, we empower communities to",
+  "confidently build their infrastructure future. Our",
+  "sustainable approach to engineering and logistics",
+  "makes development easier than ever.",
 ];

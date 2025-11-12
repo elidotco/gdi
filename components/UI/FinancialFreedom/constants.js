@@ -3,53 +3,53 @@ import ic_circle_stack from "@/public/svgs/ic_circle_stack.svg";
 import ic_arrows_left_right from "@/public/svgs/ic_arrows_right_left.svg";
 
 // For desktop
-export const desktopHeaderPhrase = ["Your Financial Freedom,", "Your Way"];
+export const desktopHeaderPhrase = ["Sustainable Development,", "Your Way"];
 export const desktopParagraphPhrase = [
-  "We believe that managing your finances should be effortless and cost-effective.",
-  "That's why we offer you the freedom you deserve.",
+  "We believe that infrastructure development should be responsible and impactful.",
+  "That's why we deliver excellence across every project.",
 ];
 export const desktopBriefNotePhrase = [
-  "Smart investments,",
-  "secure payments, and",
-  "expert guidance, all in",
-  "one place.",
+  "Hydrological solutions,",
+  "agricultural support, and",
+  "construction expertise, all in",
+  "one partnership.",
 ];
 
 // For mobile
-export const mobileHeaderPhrase = ["Your Financial", "Freedom, Your Way"];
+export const mobileHeaderPhrase = ["Sustainable", "Development, Your Way"];
 export const mobileParagraphPhrase = [
-  "We believe that managing your finances should be",
-  "effortless and cost-effective. That's why we offer",
-  " you the freedom you deserve.",
+  "We believe that infrastructure development should be",
+  "responsible and impactful. That's why we deliver",
+  "excellence across every project.",
 ];
 
 export const mobileBriefNotePhrase = [
-  "Smart",
-  " investments,",
-  "secure",
-  " payments,",
-  "and expert",
-  "guidance, all",
-  "in one place.",
+  "Hydrological",
+  " solutions,",
+  "agricultural",
+  " support,",
+  "and construction",
+  "expertise, all",
+  "in one partnership.",
 ];
 
 export const edges = [
   {
-    point: "No minimum balance fees",
+    point: "150 Years Combined Experience",
     details:
-      "Say goodbye to minimum balance fees. Your account, your balance—no hidden charges",
-    icon: ic_banknotes,
+      "Tap into over a century of expertise across our network. Your projects benefit from proven knowledge and trusted partnerships.",
+    icon: ic_banknotes, // Replace with experience/award icon
   },
   {
-    point: "No monthly fees",
+    point: "Operating Across 25+ Countries",
     details:
-      "Bank with us without worrying about monthly fees. Keep more of your money where it belongs—in your account",
-    icon: ic_circle_stack,
+      "Work with us across West Africa without limitations. We deliver services seamlessly from Ghana to Senegal and beyond.",
+    icon: ic_circle_stack, // Replace with map/globe icon
   },
   {
-    point: "No bank transfer fees",
+    point: "Comprehensive Service Portfolio",
     details:
-      "Seamlessly transfer funds without the extra cost. Send and receive money with zero bank transfer fees.",
-    icon: ic_arrows_left_right,
+      "Access hydrological, agricultural, construction, and logistics solutions from one reliable partner. Complete support for your entire project lifecycle.",
+    icon: ic_arrows_left_right, // Replace with services/portfolio icon
   },
 ];
