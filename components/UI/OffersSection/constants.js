@@ -22,27 +22,27 @@ export const mobileParagraphPhrase = [
 
 export const offers = [
   {
-    illustration: seamless_payments,
-    title: "Seamless Payments",
+    illustration: null,
+    title: "Hydrological Engineering",
     details:
-      "Enjoy secure, seamless transactions that make managing your money a breeze.",
+      "Comprehensive water resource management including river maintenance, coastal protection, and dredging services across West Africa.",
   },
   {
-    illustration: smart_investing,
-    title: "Smart Investing",
+    illustration: null,
+    title: "Agricultural Support",
     details:
-      "Grow your wealth confidently with our personalized investment solutions, tailored to your financial goals.",
+      "Complete agro-logistics solutions from farm setup to market distribution, supporting sustainable farming across 25+ countries.",
   },
   {
-    illustration: wealth_management,
-    title: "Wealth Management",
+    illustration: null,
+    title: "Construction Services",
     details:
-      "Make informed decisions for your financial future with our wealth management expertise.",
+      "Infrastructure development, road construction, and earth moving operations delivered with environmental responsibility.",
   },
   {
-    illustration: financial_planning,
-    title: "Financial Planning",
+    illustration: null,
+    title: "General Logistics",
     details:
-      "Achieve your financial dreams with our comprehensive financial planning services, guiding you toward a secure future.",
+      "Multi-modal transport solutions across West Africa with real-time tracking and temperature-controlled capabilities.",
   },
 ];

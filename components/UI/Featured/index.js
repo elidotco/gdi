@@ -7,6 +7,7 @@ import companies_image from "@/public/images/companies.png";
 import { Wrapper, Inner, ImageContainer, ParallaxImages, Div } from "./styles";
 import RevealCover from "@/components/Common/RevealCover";
 import { useIsMobile } from "@/libs/useIsMobile";
+import banere from "@/public/images/banere.jpg";
 export const imageVariants = {
   hidden: {
     scale: 1.6,
@@ -41,7 +42,7 @@ const Featured = () => {
                 fill
               />
             ) : (
-              <Image src={big_banner} alt="big_banner" fill />
+              <Image src={banere} alt="big_banner" fill />
             )}
           </Div>
         </ImageContainer>

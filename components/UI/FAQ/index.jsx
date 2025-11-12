@@ -10,8 +10,8 @@ import {
   Wrapper,
 } from "./styles";
 import Image from "next/image";
-import ic_chevron_down from "/svgs/ic_chevron_down.svg";
-import { MaskText } from "@/components";
+import ic_chevron_down from "@/public/svgs/ic_chevron_down.svg";
+
 import { useIsMobile } from "@/libs/useIsMobile";
 import {
   animate,
@@ -19,9 +19,10 @@ import {
   faqData,
   mobileHeaderPhrase,
 } from "./constants";
+import MaskText from "@/components/Common/MaskText";
 
 const FAQ = () => {
-  const [openItem, setOpenItem] = (useState < number) | (null > null);
+  const [openItem, setOpenItem] = useState();
 
   const toggleItem = (index) => {
     setOpenItem(openItem === index ? null : index);
