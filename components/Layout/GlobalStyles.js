@@ -8,7 +8,7 @@ export const GlobalStyles = styled.createGlobalStyle`
     --white: #fff;
     --light-gray: #dcdcdc;
     --link-color: #bdbdbd;
-    --green: #2b892e;
+    --green: #c41e3a;
     --emerald: #48d64c;
   }
 
@@ -74,3 +74,5 @@ export const GlobalStyles = styled.createGlobalStyle`
   .complete {
   }
 `;
+
+// #2b892e

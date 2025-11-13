@@ -30,7 +30,7 @@ export const links = [
     linkTo: " Services",
   },
   {
-    url: "/",
+    url: "/projects",
     linkTo: "Projects",
   },
   {

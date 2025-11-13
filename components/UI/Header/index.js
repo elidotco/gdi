@@ -10,7 +10,7 @@ import {
   AbsoluteLinks,
   BurgerMenu,
 } from "./styles";
-import raft_logo from "@/public/svgs/raft_logo.svg";
+import raft_logo from "@/public/svgs/log1.svg";
 import ic_bars from "@/public/svgs/ic_bars.svg";
 
 import AnimatedLink from "@/components/Common/AnimatedLink";
@@ -25,7 +25,7 @@ const Header = () => {
     <Wrapper>
       <Inner>
         <LogoContainer>
-          <Image src={raft_logo} alt="raft_logo" priority />
+          <Image src={raft_logo} alt="raft_logo" priority width={200} />
           <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
             <motion.div
               variants={menu}
