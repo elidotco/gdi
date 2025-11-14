@@ -34,15 +34,12 @@ export const links = [
     linkTo: "Projects",
   },
   {
-    url: "/",
+    url: "/media",
     linkTo: " Media",
   },
+
   {
-    url: "/",
-    linkTo: " CSR",
-  },
-  {
-    url: "/",
+    url: "/contact",
     linkTo: "Careers",
   },
   {

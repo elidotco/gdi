@@ -63,7 +63,7 @@ const Footer = () => {
             </Translator>
             <CopyRight>
               <Image src={ic_copyright} alt="copyright svg" />
-              DGI 2024. All rights reserved.
+              DGI 2025. All rights reserved.
             </CopyRight>
           </FooterBottom>
         </FooterMainContent>

@@ -9,14 +9,7 @@ import OffersSection from "@/components/UI/OffersSection";
 export default function Home() {
   return (
     <main>
-      <HeroSection />
-
-      <Featured />
-      <OffersSection />
-      <FinancialFreedom />
-      <FinancialFuture />
-      {/* <IntroSection /> */}
-      {/* <JoinSection /> */}
+      Hello
       <FAQ />
     </main>
   );

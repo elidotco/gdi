@@ -5,18 +5,12 @@ import FinancialFuture from "@/components/UI/FinancialFuture";
 import HeroSection from "@/components/UI/HeroSection";
 
 import OffersSection from "@/components/UI/OffersSection";
+import ProjectsPage from "@/components/UI/Projects";
 
 export default function Home() {
   return (
     <main>
-      <HeroSection />
-
-      <Featured />
-      <OffersSection />
-      <FinancialFreedom />
-      <FinancialFuture />
-      {/* <IntroSection /> */}
-      {/* <JoinSection /> */}
+      <ProjectsPage />
       <FAQ />
     </main>
   );

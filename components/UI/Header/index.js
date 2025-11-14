@@ -18,6 +18,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { links, menu } from "./constants";
 import GetStartedButton from "@/components/Common/GetStartedButton";
+import Link from "next/link";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +26,9 @@ const Header = () => {
     <Wrapper>
       <Inner>
         <LogoContainer>
-          <Image src={raft_logo} alt="raft_logo" priority width={200} />
+          <Link href="/">
+            <Image src={raft_logo} alt="raft_logo" priority width={200} />
+          </Link>
           <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
             <motion.div
               variants={menu}
